@@ -2,15 +2,17 @@
   "name": "weather_ui",
   "version": "1.0.0",
   "engines": {
-    "node": "12.16.3"
+    "node": "12.16.3",
+    "npm": "6.14.4"
   },
   "description": "Weather App",
-  "main": "lib/server.js",
+  "main": "lib/app.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "dev": "nodemon  --exec babel-node lib/server.js --watch",
+    "start": "node lib/app.js",
+    "dev": "nodemon  --exec babel-node lib/app.js --watch",
     "webpack": "webpack -wd"
   },
   "babel": {

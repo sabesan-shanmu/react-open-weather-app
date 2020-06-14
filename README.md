@@ -1,3 +1,1 @@
 # react-open-weather-app
-
-

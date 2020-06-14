@@ -10,7 +10,7 @@ Displays current weather and 5 Day / 3 Hour Forecast.
 Due to the database row limit set on heroku, the api is configured is only to pull information for 10,000 locations.
 
 ## Site
-Site: https://react-open-weather-app.herokuapp.com/
+Site: https://react-open-weather-app.herokuapp.com/\
 API: https://open-weather-wrapper-api.herokuapp.com/swagger/
 
 ## Resources

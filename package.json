@@ -1,6 +1,9 @@
 {
   "name": "weather_ui",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.3"
+  },
   "description": "Weather App",
   "main": "lib/server.js",
   "directories": {
@@ -8,8 +11,7 @@
   },
   "scripts": {
     "dev": "nodemon  --exec babel-node lib/server.js --watch",
-    "webpack": "webpack -wd",
-    "test": "jest --watch"
+    "webpack": "webpack -wd"
   },
   "babel": {
     "presets": [
@@ -30,10 +32,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
     "ejs": "^3.1.3",
     "eslint": "^7.0.0",
     "express": "^4.17.1",
+    "helmet": "^3.23.0",
     "lodash": "^4.17.15",
     "moment": "^2.26.0",
     "react": "^16.13.1",

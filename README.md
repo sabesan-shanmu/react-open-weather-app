@@ -17,5 +17,5 @@ Site: https://react-open-weather-app.herokuapp.com/
 API: https://open-weather-wrapper-api.herokuapp.com/swagger/
 
 ## Resources
-https://openweathermap.org/api
-https://developers.google.com/maps/documentation
+* https://openweathermap.org/api
+* https://developers.google.com/maps/documentation

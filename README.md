@@ -7,7 +7,7 @@ App that uses the Google Maps Javascript API and open weather api to display wea
 
 ## Usage
 Displays current weather and 5 Day / 3 Hour Forecast.
-Due to the database row limit set on heroku, the api is configured is only to pull information for 10,000 locations.
+Due to the database row limit set on heroku, the api is configured to pull information for 10,000 locations.
 
 ## Site
 Site: https://react-open-weather-app.herokuapp.com/
